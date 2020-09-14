@@ -34,7 +34,7 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
-- [`2020년 6월 20일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-20일)
+- [`2020년 6월 26일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-26일)
     - 테스트 모드와 관련된 버그 수정
 - [`2019년 10월 14일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-10월-14일)
     - Android Q(10) 대응 버그 수정
