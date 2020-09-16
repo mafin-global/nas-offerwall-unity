@@ -9,8 +9,8 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 - [📦⠀파일](#-파일)
 - [👤️⠀개발자/매체 등록](#%EF%B8%8F-개발자-매체-등록)
 - [🚀⠀SDK 연동](#-sdk-연동)
-    - [라이브러리 추가](#라이브러리-추가)
-    - [AndroidManifest.xml 설정](#androidmanifestxml-설정)
+    - [iOS 설정](#ios-설정)
+    - [Android 설정](#android-설정)
     - [초기화](#초기화)
     - [팝업 오퍼월 띄우기](#팝업-오퍼월-띄우기)
     - [임베드 오퍼월 삽입](#임베드-오퍼월-삽입)
@@ -25,6 +25,8 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 ## 📝 업데이트
 
 ### `iOS 업데이트`
+- [`2020년 9월 16일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-9월-16일)
+    - iOS 14 지원을 위한 SDK 배포
 - [`2020년 3월 31일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-3월-31일)
     - 통신 관련 버그 수정
 - [`2020년 1월 30일`](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md#2020년-1월-30일---내장-ui) - _내장 UI_
@@ -53,6 +55,29 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 ## 🚀 SDK 연동
 
 프로젝트에 `/sdk/NASWall_Unity.unitypackage` 파일을 `Import` 합니다.
+
+### `iOS 설정`
+`/sdk` 폴더의 `libNASWall.a`, `NASWall.h` 파일을 프로젝트에 추가합니다.
+
+`프로젝트 설정` > `Build Phases` > `Link Binary With Libraries` 에서 다음 라이브러리를 추가합니다.
+
+- libNASWall.a
+- AdSupport.framework
+- Security.framework
+- WebKit.framework
+- SystemConfiguration.framework
+
+AdSupport.framework 의 Status 는 Optional 로 변경합니다.
+
+> ***‼️ iOS 14 지원을 위한 추가 설정 (XCode 12 이상 버전) ‼***
+>
+> - `프로젝트 설정` > `Build Phases` > `Link Binary With Libraries` 에서 다음 라이브러리를 추가합니다.
+>
+>   - AppTrackingTransparency.framework
+>
+> - `Info.plist`에 `NSUserTrackingUsageDescription` 키를 추가한 후, 추적 권한 허용을 위한 사용자 표시 문구를 입력합니다. 문구는 앱의 성격에 맞게 변경할 수 있습니다.
+>
+>   ![](img/ios_1.png)
 
 ### `Android 설정`
 - Proguard 설정
