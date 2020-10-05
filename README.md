@@ -35,6 +35,8 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
+- [`2020년 10월 5일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-10월-5일)
+    - USER_DATA 값 URL Encode 처리 (+ 문자 등이 포함되어 있을 때, 적립 콜백 호출 시 ud 값이 잘못 반환되는 문제 수정)
 - [`2020년 6월 26일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-26일)
     - 테스트 모드와 관련된 버그 수정
 - [`2019년 10월 14일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2019년-10월-14일)
@@ -46,7 +48,7 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 
 ## 📦 파일
 - [`/sdk`](sdk) : 최종 릴리즈 SDK 파일
-    - [`NASWall_Unity_xxxxxxxx..unitypackage`](sdk/NASWall_Unity_20191014.unitypackage) : SDK 라이브러리 파일
+    - [`NASWall_Unity_xxxxxxxx..unitypackage`](sdk/NASWall_Unity_20201005.unitypackage) : SDK 라이브러리 파일
 
 ## 👤️ 개발자/매체 등록
 [오퍼월 적용 가이드 문서](https://github.com/mafin-global/nas-offerwall#%EF%B8%8F-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%93%B1%EB%A1%9D) 를 참고해주세요.
