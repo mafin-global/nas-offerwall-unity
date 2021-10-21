@@ -35,6 +35,10 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
+- [`2021년 10월 21일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-10월-21일)
+  - IMEI 수집 제거
+- [`2021년 6월 23일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-6월-23일)
+  - 사용자 휴대폰번호 수집 제거
 - [`2020년 10월 5일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-10월-5일)
     - USER_DATA 값 URL Encode 처리 (+ 문자 등이 포함되어 있을 때, 적립 콜백 호출 시 ud 값이 잘못 반환되는 문제 수정)
 - [`2020년 6월 26일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2020년-6월-26일)
