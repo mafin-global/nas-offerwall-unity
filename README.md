@@ -35,6 +35,12 @@ NAS 오퍼월 Unit용 SDK 및 예제를 제공합니다.
 - [전체 업데이트 목록 보기](https://github.com/mafin-global/nas-offerwall-ios/blob/master/docs/Update.md)
 
 ### `Android 업데이트`
+- [`2023년 5월 24일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2023년-5월-24일)
+  - 신규 IP 정책 반영을 위한 wi-fi 상태 체크 기능 추가
+  - (필수) ACCESS_NETWORK_STATE 권한 추가 필요
+  - (사용자 정의 UI) -9968, -9969 오류코드 추가
+- [`2022년 11월 22일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2022년-11월-22일)
+  - Android SDK 33 대응
 - [`2021년 11월 12일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-11월-12일)
   - 일부폰에서 광고 참여 시 -99992 오류 발생하는 문제 수정
 - [`2021년 10월 21일`](https://github.com/mafin-global/nas-offerwall-android/blob/master/docs/Update.md#2021년-10월-21일)
@@ -101,9 +107,9 @@ AdSupport.framework 의 Status 는 Optional 로 변경합니다.
     > AndroidManifest.xml 에 다음 권한을 추가합니다.
     > ```
     > <uses-permission android:name="android.permission.INTERNET"/>
-    > <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     > <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    > <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    > <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    > <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     > ```
 
     > 프로젝트의 Target SDK를 23(Android 6.0) 이상으로 지정 한 경우, 사용자가 위의 권한을 허가하지 않으면 오퍼월이 정상적으로 작동하지 않을 수 있습니다.
