@@ -109,8 +109,9 @@ AdSupport.framework 의 Status 는 Optional 로 변경합니다.
     > AndroidManifest.xml 에 다음 권한을 추가합니다.
     > ```
     > <uses-permission android:name="android.permission.INTERNET"/>
+    > <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     > <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    > <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    > <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     > <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     > ```
 
